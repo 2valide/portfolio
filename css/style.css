@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(#141C26, #000000);
+    height: 100vh;
+}
+
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 10px;
+    font-weight: lighter;
+    
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li {
+    list-style: none;
+    margin: 0 10px;
+    padding-left: 50px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* .nav ul li a:hover {
+    color: #000000;
+}
+
+.nav ul li a.active {
+    color: #000000;
+} */
+
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 10px;
+    font-weight: lighter;
+    /* background-color: azure; */
+    width: 35rem;
+    height: 20rem;
+    /* margin-left: 15%; */
+    /* margin-right: 15%; */
+    /* margin-top: 5%; */
+    /* padding: 5px; */
+}
+
+.photo img{
+    width: 13em;
+    height: auto;
+    margin-left: 10vh;
+}
+
+.profilEtPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
