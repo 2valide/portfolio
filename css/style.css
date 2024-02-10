@@ -38,6 +38,7 @@ body{
 }
 
 
+
 .logo {
     position: absolute;
     right: 85%;
@@ -103,11 +104,28 @@ body{
 
 .Skills{
     /* background-color: white; */
-    width: 35rem;
+    width: 27rem;
     margin-left: 5%;
 }
 
 .Skills p {
     margin-left: 2rem;
     color: white;
+}
+
+.competence h2{
+    color: white;
+    /* margin-left: 2rem; */
+    text-align: center;
+    
+}
+
+.competence h3{
+    color: white;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.backend {
+    margin-top: 2vh;
 }
