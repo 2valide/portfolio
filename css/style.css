@@ -56,9 +56,112 @@ body{
     color: white;
     font-size: 16px;
     font-weight: bold;
+    padding: 15px;
 }
 
+.nav ul li a,
+.nav ul li a:after,
+.nav ul li a:before {
+  transition: all .5s;
+}
+.nav ul li a:hover {
+  color: #555;
+}
 
+.nav ul li a {
+  position: relative;
+}
+.nav ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+.nav ul li a:hover:after,
+.nav ul li.active a:after {
+  width: 100%;
+}
+
+.button-85 {
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 0 50%;
+    width: 5rem;
+    bottom: 130px;
+}
+.button-85 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    
+}
+  
+.button-85:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+@keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+}
+  
+.button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
 
 .logo {
     position: absolute;
@@ -103,75 +206,7 @@ body{
 
 
 
-.button-85 {
-    padding: 0.6em;
-    border: none;
-    outline: none;
-    color: rgb(255, 255, 255);
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    margin: 0 50%;
-    width: 5rem;
-    bottom: 130px;
-  }
-  
-  .button-85:before {
-    content: "";
-    background: linear-gradient(
-      45deg,
-      #ff0000,
-      #ff7300,
-      #fffb00,
-      #48ff00,
-      #00ffd5,
-      #002bff,
-      #7a00ff,
-      #ff00c8,
-      #ff0000
-    );
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing-button-85 20s linear infinite;
-    transition: opacity 0.3s ease-in-out;
-    border-radius: 10px;
-  }
-  
-  @keyframes glowing-button-85 {
-    0% {
-      background-position: 0 0;
-    }
-    50% {
-      background-position: 400% 0;
-    }
-    100% {
-      background-position: 0 0;
-    }
-  }
-  
-  .button-85:after {
-    z-index: -1;
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #222;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-  }
+
 
 .profil p {
     font-size: 13px;
@@ -203,11 +238,7 @@ body{
 }
 
 
-.Skills{
-    /* background-color: white; */
-    width: 27rem;
-    margin-left: 5%;
-}
+
 
 .Skills p {
     /* margin-left: 2rem; */
@@ -247,4 +278,25 @@ body{
 #competences h2 {
     margin-top: 0;
     padding: 5vh;
+}
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5vh 0;
+}
+
+.Skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* min-width: 10%; */
+    /* background-color: #00ffd5; */
+}
+
+.cv {
+    /* background-color: #00ffd5; */
+    width: 47em;
 }
