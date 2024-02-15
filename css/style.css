@@ -300,3 +300,8 @@ body{
     /* background-color: #00ffd5; */
     width: 47em;
 }
+
+.cv img {
+    width: 100%;
+    height: auto;
+}
