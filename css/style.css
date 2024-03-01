@@ -3,7 +3,7 @@ body{
     margin: 0;
     height: 100wh;
     font-size: 16px;
-
+    overflow-x: hidden;
 }
 
 
@@ -100,7 +100,7 @@ body{
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    margin: 0 50%;
+    margin: 0 48%;
     width: 5rem;
     bottom: 130px;
 }
