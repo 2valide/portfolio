@@ -242,9 +242,129 @@ body{
     height: 8px;
 }
 
+.htmlprogress {
+    background-color: #6ec7e0;
+    width: 375px;
+    height: 8px;
+}
 
+.cssprogress {
+    background-color: #6ec7e0;
+    width: 350px;
+    height: 8px;
+}
 
+.BootstrapProgress {
+    background-color: #6ec7e0;
+    width: 200px;
+    height: 8px;
+}
 
+.JavaScriptProgress {
+    background-color: #6ec7e0;
+    width: 300px;
+    height: 8px;
+}
+
+.TypeScriptProgress {
+    background-color: #6ec7e0;
+    width: 125px;
+    height: 8px;
+}
+
+.ReactProgress {
+    background-color: #6ec7e0;
+    width: 150px;
+    height: 8px;
+}
+
+.PhpProgress {
+    background-color: #6ec7e0;
+    width: 175px;
+    height: 8px;
+}
+
+.SqlProgress {
+    background-color: #6ec7e0;
+    width: 275px;
+    height: 8px;
+}
+
+.PostgreSQLProgress {
+    background-color: #6ec7e0;
+    width: 300px;
+    height: 8px;
+}
+
+.PythonProgress {
+    background-color: #6ec7e0;
+    width: 320px;
+    height: 8px;
+}
+
+.nodeProgress {
+    background-color: #6ec7e0;
+    width: 150px;
+    height: 8px;
+}
+
+.DockerProgress {
+    background-color: #6ec7e0;
+    width: 175px;
+    height: 8px;
+}
+
+.WordPressProgress {
+    background-color: #6ec7e0;
+    width: 190px;
+    height: 8px;
+}
+
+.PrestaShopProgress {
+    background-color: #6ec7e0;
+    width: 100px;
+    height: 8px;
+}
+.DrupalProgress {
+    background-color: #6ec7e0;
+    width: 100px;
+    height: 8px;
+}
+.ShopifyProgress {
+    background-color: #6ec7e0;
+    width: 100px;
+    height: 8px;
+}
+
+.GitProgress {
+    background-color: #6ec7e0;
+    width: 300px;
+    height: 8px;
+}
+
+.GitHubProgress {
+    background-color: #6ec7e0;
+    width: 300px;
+    height: 8px;
+}
+
+.VsCodeProgress {
+    background-color: #6ec7e0;
+    width: 375px;
+    height: 8px;
+}
+
+.FigmaProgress {
+    background-color: #6ec7e0;
+    width: 260px;
+    height: 8px;
+}
+
+.PhotoShopProgress {
+    background-color: #6ec7e0;
+    width: 170px;
+    height: 8px;
+}
 .Skills p {
     /* margin-left: 2rem; */
     color: white;
