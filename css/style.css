@@ -88,6 +88,69 @@ body{
   width: 100%;
 }
 
+/* CSS pour le menu hamburger */
+
+.mobile-menu {
+    display: none;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+}
+
+.menu-toggle span {
+    background-color: white;
+    height: 3px;
+    width: 30px;
+    display: block;
+    transition: 0.3s;
+}
+
+.mobile-nav.show {
+    list-style: none;
+    padding: 0;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.mobile-nav li {
+    padding: 15px;
+}
+
+.mobile-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mobile-nav li a:hover {
+    color: #555;
+}
+
+
+
+
 .button-85 {
     padding: 0.6em;
     border: none;
@@ -283,7 +346,7 @@ body{
 .intersection h2 {
     color: white;
     text-align: center;
-    padding-top: 1.5em;
+    padding-top: 2em;
 }
 
 #barreDeProgression {
@@ -514,6 +577,7 @@ body{
     grid-template-columns: repeat(4, 3fr);
     max-width: 1600px;
     margin: 4rem auto;
+    margin-left: 8%;
 }
 
 .features .card{
@@ -624,3 +688,72 @@ footer {
     /* margin-top: 10em; */
     font-size: large;
 }
+
+@media only screen and (max-width: 1250px) {
+    .logo {
+        left: 10%;
+        
+    }
+}
+
+@media only screen and (max-width: 1302px) {
+    .profil {
+        width: 29rem;
+    }
+}
+
+
+@media only screen and (max-width: 980px) {
+    .mobile-menu {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .profil {
+        width: 25rem;
+        margin-left: 15%;
+        /* margin-right: 15%; */
+    }
+    
+    .intersection, .competence, .contact {
+        width: 64em;
+    }
+
+}
+
+@media only screen and (max-width: 895px) {
+    html {
+        width: 60em;
+    }
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .intersection, .competence, .contact {
+        width: 92em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+        width: 92em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .menu-toggle {
+        right: 240px;
+        top: 80px;
+    }
+    html {
+        width: 90em;
+    }
+}
+
+/* @media only screen and (max-width: 320px) {
+    html {
+        width: 75em;
+    }
+} */
