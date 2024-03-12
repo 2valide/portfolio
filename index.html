@@ -7,8 +7,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c229eee80c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/Normalize.css">
+    <link rel="stylesheet" href="./css/component/Contact.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/Normalize.css">
     <title>Anthony ZHAO</title>
 </head>
 <body>
@@ -32,8 +33,8 @@
                 <ul>
                     <li class="active"><a href="#">//Accueil</a></li>
                     <!-- <li><a href="#">//Profil</a></li> -->
-                    <li><a href="#competences">//Compétence</a></li>
-                    <li><a href="#projets">//Projets</a></li>
+                    <li><a href="#suite">//Compétence</a></li>
+                    <li><a href="#projetss">//Projets</a></li>
                     <li><a href="#contact">//Contact</a></li>
                 </ul>
             </div>
@@ -48,7 +49,7 @@
                     <!-- <li><a href="#">//Profil</a></li> -->
                     <li><a href="#competences">//Compétence</a></li>
                     <li><a href="#projets">//Projets</a></li>
-                    <li><a href="#contact">//Contact</a></li>
+                    <li><a href="#constact">//Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -172,7 +173,7 @@
                             <div class="PhotoShopProgress"></div>
                         </div>
                     </div>
-                        
+                    <div id="projetss"></div>
                 </div>
                 <div class="cv">
                     <img src="./img/FireShot Capture 010 - CV de Anthony ZHAO - CV.fr - www.cv.fr.png" alt="cv développeur web" class="cv-img">
@@ -181,7 +182,7 @@
             </div>
         </section>
         <section class="projets" id="projets">
-            <h2>Mes compétences :</h2>
+            <h2>Mes projets :</h2>
                 <p class="sub_header">
                     Au cours de ma formation, j'ai énormément pratiqué par moi même.
                     Des projets autant individuel que scolaire.
@@ -234,7 +235,7 @@
                     <div class="card">
 
                         <span><i class="fa-brands fa-node-js"></i></span>
-                        <h4>Anti triche Exament</h4>
+                        <h4>Anti triche Examen</h4>
                         <p>
                             Un site web pour les examens, anti triche et ludique.
                         </p>
@@ -248,9 +249,9 @@
                     <div class="card">
 
                         <span><i class="fa-brands fa-js"></i></span>
-                        <h4>Porfolio</h4>
+                        <h4>Portfolio</h4>
                         <p>
-                            Porfolio actuel.
+                            Portfolio actuel.
                         </p>
                        
                         <br>
@@ -268,28 +269,79 @@
                        
                         <br>
                         <br>
+                        
                         <!-- <a href="#">Découvrez le</a> -->
                     </div>
-
 
                 </div>
         </section>
         <section id="contact" class="contact">
-            <h2>Contact</h2>
-            <div class="information_personnelle">
-                <p><i class="fa-solid fa-phone"></i> 07 81 48 58 86</p>
-                <p><i class="fa-solid fa-envelope"></i> a_zhao1@hetic.eu</p>
-                <p><i class="fa-solid fa-location-dot"></i> Aubervilliers / Paris, France</p>
-            </div>
             
+            <h2>Contact</h2>
+            <br>
+            <br>
+            <div class="Contact-container">
+                
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <!-- <h3>Contact</h3> -->
+                    <input type="hidden" name="access_key" value="dc23b222-31f4-4af7-8de4-7e25eb6711be">
+                    
+                    <div class="contactGrid">
+                        
+                        <div class="nom">
+                            <label for="nom">Nom *</label>
+                            <input type="text" name="nom" id="nom" placeholder="ex: Zhao" required>
+                        </div>
+                        <div class="prenom">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" name="prenom" id="prenom" placeholder="ex: Anthony">
+                        </div>
+                        <div class="entreprise">
+                            <label for="entreprise">Entreprise</label>
+                            <input type="text" name="entreprise" id="entreprise" placeholder="ex: Hetic">
+                        </div>
+                        <div class="email">
+                            <label for="email">Email *</label>
+                            <input type="email" name="email" id="email" placeholder="ex: a_zhao1@hetic.eu" required>
+                        </div>
+                        <div class="tel">
+                            <label for="tel">Téléphone</label>
+                            <input type="tel" name="tel" id="tel" placeholder="ex: 0781485886">
+                        </div>
+                        <div class="Objet">
+                            <label for="Objet">Objet *</label>
+                            <input type="text" name="Objet" id="Objet" required>
+                        </div>
+                        <div class="message">
+                            <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="4"  required></textarea>
+                        <p>* Champ obligatoire</p>
+                        </div>
+                        <div class="submit">
+                            
+                            <button type="submit" id="submit">Envoyer</button>
+                        </div>
+                        
+
+                        <div class="information_personnelle">
+                        <p><i class="fa-solid fa-phone"></i> 07 81 48 58 86</p>
+                        <p><i class="fa-solid fa-envelope"></i> a_zhao1@hetic.eu</p>
+                        <p><i class="fa-solid fa-location-dot"></i> Aubervilliers / Paris, France</p>
+                </div>
+                    </div>
+                </form>
+                
+            </div>
         </section>
         
     </main>
     <footer>
-        <p>Copyrigth 2024 | Porfolio de Anthony ZHAO</p>
+        <p>Copyrigth 2024 | Portfolio de Anthony ZHAO</p>
         <p>(en constante amélioration)</p>
     </footer>
 </body>
+ 
+<!-- <script src="Scripts/Contact.js"></script> -->
 <script src="Scripts/script.js"></script>
 <script src="Scripts/header.js"></script>
 <script src="Scripts/Cv.js"></script>

@@ -669,26 +669,11 @@ body{
     margin-top: 2vh;
 }
 
-.contact {
-    color: white;
-    font-family: "Roboto Mono", monospace;
-    background-color: #364269;
-    padding: 2em 0 2em 0;
-    margin-top: 10em;
 
-}
 
-.information_personnelle {
-    
-    margin-left: 10em;
-}
 
-.contact h2 {
-    color: white;
-    text-align: center;
-    margin-top: 5vh;
-    
-}
+
+
 
 footer {
     /* background-color: #364269; */
