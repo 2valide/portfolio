@@ -518,7 +518,14 @@ body{
 }
 
 #competences {
-    background-color: #000;
+    /* background-color: #000; */
+    background:
+        repeating-conic-gradient(from 30deg,#0000 0 120deg,#3f4342 0 180deg) 
+     80px 46.16px,
+        repeating-conic-gradient(from 30deg,#000000 0 60deg,#272525 0 120deg,#3f4342 0 180deg);
+        background-size: 160px 92px;
+
+
 }
 
 #competences h2 {
@@ -540,6 +547,9 @@ body{
     /* justify-content: space-between; */
     /* min-width: 10%; */
     /* background-color: #00ffd5; */
+    background-color: #000;
+    padding: 100px;
+    border-radius: 50px;
 }
 
 .cv {
