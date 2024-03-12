@@ -1,0 +1,111 @@
+.container {
+    background: rgb(205, 204, 204);
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 500px;
+}
+
+.left,
+.right {
+    width: 50%;
+    align-items: center;
+}
+
+.right-conv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.right-conv .msg {
+    background: rgb(52, 163, 131);
+    border: 1px solid rgb(52, 163, 131);
+    color: #fff;
+}
+
+.right-conv .msg::after {
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgb(52, 163, 131);
+    position: absolute;
+    bottom: 7px;
+    right: -15px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+.left-conv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.left-conv .msg::after {
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgb(73, 106, 206);
+    position: absolute;
+    bottom: 7px;
+    left: -15px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+.left-conv .msg {
+    background: rgb(73, 106, 206);
+    border: 1px solid rgb(73, 106, 206);
+    color: #fff;
+}
+
+h4,
+p {
+    color: rgb(88, 86, 86);
+    margin: 30px 0 10px 0;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+.chat-content {
+    background: url("/assets/img/bkg.jpg");
+    overflow: auto;
+    height: 250px;
+    margin: 1px 0;
+    padding: 15px 5px;
+    width: 400px;
+}
+
+.msg {
+    padding: 5px;
+    margin: 5px 16px;
+    position: relative;
+    border-radius: 3px;
+    width: fit-content;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
+.msg .body {
+    font-size: 14px;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+.msg .footer {
+    color: #ccc;
+    font-size: 10px;
+}

@@ -1,0 +1,8 @@
+.chat-content {
+    background: url("../img/bkg.jpg");
+    overflow: auto;
+    height: 250px;
+    margin: 1px 0;
+    padding: 15px 5px;
+    width: 400px;
+}

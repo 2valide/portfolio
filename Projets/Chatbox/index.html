@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="MARTINS Susana">
+    <title>Prototype de chat en temps réel</title>
+    <link rel="stylesheet" href="./assets/css/ColonnesDroiteEtGauche.css">
+    <link rel="stylesheet" href="./assets/css/conteneurPrincipal.css">
+    <link rel="stylesheet" href="./assets/css/contenuDeLaDiscussion.css">
+    <link rel="stylesheet" href="./assets/css/convDroite.css">
+    <link rel="stylesheet" href="./assets/css/conversationAgauche.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/messageIndividuels.css">
+
+</head>
+<body>
+    <div class="container" id="chat">
+        
+            <section class="left">
+                <h4>User A</h4>
+                <p>Conversation</p>
+                <div class="chat-content convA">
+
+                </div>
+
+                <p>Nouveau message:</p>
+                <input id=newMessageA type="text" placeholder="Message">
+                <!-- <input onclick="App.sendMessageA()" type="button" value="Envoyer" > -->
+
+                <!--
+                    On peut également ne pas utiliser les attributs onClick qui sont dépréciées
+                    et poser des écouteurs d'évènements depuis le JS
+                -->
+                <input type="button" class="btnUserA" value="Envoyer" >
+            </section>
+
+            <section class="right">
+                <h4>User B</h4>
+                <p>Conversation</p>
+                <div class="chat-content convB">
+                </div>
+
+                <p>Nouveau message:</p>
+                <input id=newMessageB type="text" placeholder="Message">
+                <!-- <input onclick="App.sendMessageB()" type="button" value="Envoyer" > -->
+                
+                <!--
+                    On peut également ne pas utiliser les attributs onClick qui sont dépréciées
+                    et poser des écouteurs d'évènements depuis le JS
+                -->
+                <input type="button" class="btnUserB" value="Envoyer" >
+            </section>
+
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

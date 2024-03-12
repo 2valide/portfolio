@@ -1,0 +1,19 @@
+.msg {
+    padding: 5px;
+    margin: 5px 16px;
+    position: relative;
+    border-radius: 3px;
+    width: fit-content;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.msg .body {
+    font-size: 14px;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+.msg .footer {
+    color: #ccc;
+    font-size: 10px;
+}

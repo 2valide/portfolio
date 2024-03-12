@@ -1,0 +1,9 @@
+.container {
+    background: rgb(205, 204, 204);
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 500px;
+}

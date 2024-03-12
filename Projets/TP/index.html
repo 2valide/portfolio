@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP JavaScript</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="pop-up">
+        <div class="card">
+            <i class="fa-solid fa-xmark"></i>
+            <p>Join our newsletter to receive the latest updates and promotions.</p>
+            <form method="">
+                <input type="email" placeholder="E-mail">
+                <button type="submit">subscribe</button>
+            </form>
+        </div>
+    </div>
+    
+    <header>
+        <nav>
+            <div class="burger-menu">
+                <i class="fa-solid fa-bars open"></i>
+                <i class="fa-solid fa-xmark close"></i>
+            </div>
+            <a href="#" class="logo">sneakers</a>
+            <ul>
+                <li><a href="#">collection</a></li>
+                <li><a href="#">men</a></li>
+                <li><a href="#">women</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+        <div class="nav-right">
+            <div id="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div id="cart-count"></div>
+            </div>
+            <img src="./assets/img/pp.png" alt="photo de profil">
+        </div>
+    </header>
+
+    <main>
+        <div class="slider">
+            <div class="main-img">
+                <img src="./assets/img/slider-1.png" alt="image de chaussure">
+            </div>
+            <div class="btn-slider">
+                <i class="fa-solid fa-chevron-left" id="btn-left"></i>
+                <i class="fa-solid fa-chevron-right" id="btn-right"></i>
+            </div>
+            <div class="secondary-img">
+                <img src="./assets/img/slider-1.png" alt="image de chaussure" class="hover">
+                <img src="./assets/img/slider-2.png" alt="image de chaussure">
+                <img src="./assets/img/slider-3.png" alt="image de chaussure">
+                <img src="./assets/img/slider-4.png" alt="image de chaussure">
+            </div>
+        </div>
+
+        <div class="product-overview">
+            <h2>Sneaker Company</h2>
+            <h3>Fall Limited Edition Sneakers</h3>
+            <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+            <div class="prices">
+                <div class="new-price">
+                    <p>$150.00</p>
+                    <p>50%</p>
+                </div>
+                <div class="old-price">
+                    $250.00
+                </div>
+            </div>
+            <div class="btns">
+                <div class="products">
+                    <span id="minus"><i class="fa-solid fa-minus"></i></span>
+                    <span id="items"></span>
+                    <span id="plus"><i class="fa-solid fa-plus"></i></span>
+                </div>
+                <div class="add">
+                    <!-- pas le bon logo car payant sur fontawesome -->
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p>Add to cart</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; Copyright <span></span> - All rights reserved.</p>
+    </footer>
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

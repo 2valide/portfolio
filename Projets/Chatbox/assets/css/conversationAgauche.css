@@ -1,0 +1,23 @@
+.left-conv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left-conv .msg::after {
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgb(73, 106, 206);
+    position: absolute;
+    bottom: 7px;
+    left: -15px;
+    transform: rotate(90deg);
+}
+
+.left-conv .msg {
+    background: rgb(73, 106, 206);
+    border: 1px solid rgb(73, 106, 206);
+    color: #fff;
+}
