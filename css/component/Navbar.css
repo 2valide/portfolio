@@ -1,0 +1,209 @@
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    font-weight: lighter;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100vw;
+    padding: 40px 100px;
+    transition: 0.6s;
+    z-index: 1000;
+    background: transparent;
+    
+
+}
+
+.navBar.sticky{
+    background: #000;
+    padding: 20px 100px;
+    -webkit-box-shadow:0px 0px 63px 47px rgba(209,245,255,1);
+    -moz-box-shadow: 0px 0px 63px 47px rgba(209,245,255,1);
+    box-shadow: 1em 1em 10em 0.1em rgba(110,199,224,.804);
+    background: linear-gradient(#000,85%,rgba(110,199,224,.804));
+}
+
+.nav {
+    margin-left: 20%;
+}
+.nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li {
+    list-style: none;
+    margin: 0 10px;
+    /* padding-left: 50px; */
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.nav ul li a,
+.nav ul li a:after,
+.nav ul li a:before {
+  transition: all .5s;
+}
+.nav ul li a:hover {
+  color: #555;
+}
+
+.nav ul li a {
+  position: relative;
+}
+.nav ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+.nav ul li a:hover:after,
+.nav ul li.active a:after {
+  width: 100%;
+}
+
+/* CSS pour le menu hamburger */
+
+.mobile-menu {
+    display: none;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    position: fixed;
+    top: 75px;
+    right: 108px;
+    z-index: 1001;
+}
+
+.menu-toggle span {
+    background-color: white;
+    height: 3px;
+    width: 30px;
+    display: block;
+    transition: 0.3s;
+    
+}
+
+.mobile-nav.show {
+    list-style: none;
+    padding: 0;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mobile-nav {
+    display: none;
+    
+}
+
+.mobile-nav li {
+    padding: 15px;
+}
+
+.mobile-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mobile-nav li a:hover {
+    color: #555;
+}
+
+/**
+ * Basic CSS Media Query Template
+ * ------------------------------------------
+ *  Responsive Grid Media Queries - 1280, 1024, 768, 480
+ *   1280-1024   - desktop (default grid)
+ *   1024-768    - tablet landscape
+ *   768-480     - tablet 
+ *   480-less    - phone landscape & smaller
+ * --------------------------------------------
+ */
+ @media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+ @media all and (min-width: 768px) and (max-width: 1024px) { }
+ 
+ @media all and (min-width: 480px) and (max-width: 768px) { }
+ 
+ @media all and (max-width: 480px) {
+
+    
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .nav{
+        display: none;
+    }
+
+}
+ 
+ 
+ /* Portrait */
+ @media screen and (orientation:portrait) { /* Portrait styles here */ }
+ /* Landscape */
+ @media screen and (orientation:landscape) { /* Landscape styles here */ }
+ 
+ 
+ /* CSS for iPhone, iPad, and Retina Displays */
+ 
+ /* Non-Retina */
+ @media screen and (-webkit-max-device-pixel-ratio: 1) {
+ }
+ 
+ /* Retina */
+ @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+ only screen and (-o-min-device-pixel-ratio: 3/2),
+ only screen and (min--moz-device-pixel-ratio: 1.5),
+ only screen and (min-device-pixel-ratio: 1.5) {
+ }
+ 
+ /* iPhone Portrait */
+ @media screen and (max-device-width: 480px) and (orientation:portrait) {
+ } 
+ 
+ /* iPhone Landscape */
+ @media screen and (max-device-width: 480px) and (orientation:landscape) {
+ }
+ 
+ /* iPad Portrait */
+ @media screen and (min-device-width: 481px) and (orientation:portrait) {
+ }
+ 
+ /* iPad Landscape */
+ @media screen and (min-device-width: 481px) and (orientation:landscape) {
+ }
