@@ -486,13 +486,7 @@ body{
     width: 170px;
     height: 8px;
 }
-.Skills p {
-    /* margin-left: 2rem; */
-    color: white;
-    font-weight: 700;
-    margin: 0;
-    margin-top: 20px;
-}
+
 
 .competence h2{
     color: white;
@@ -533,24 +527,8 @@ body{
     padding: 5vh;
 }
 
-.skills-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 5vh 0;
-}
 
-.Skills {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
-    /* min-width: 10%; */
-    /* background-color: #00ffd5; */
-    background-color: #000;
-    padding: 100px;
-    border-radius: 50px;
-}
+
 
 .cv {
     /* background-color: #00ffd5; */
@@ -685,21 +663,21 @@ footer {
 }
 
 @media only screen and (max-width: 1250px) {
-    .logo {
+    /* .logo {
         left: 10%;
         
-    }
+    } */
 }
 
 @media only screen and (max-width: 1302px) {
-    .profil {
+    /* .profil {
         width: 29rem;
-    }
+    } */
 }
 
 
 @media only screen and (max-width: 980px) {
-    .mobile-menu {
+    /* .mobile-menu {
         display: block;
     }
 
@@ -710,41 +688,41 @@ footer {
     .profil {
         width: 25rem;
         margin-left: 15%;
-        /* margin-right: 15%; */
-    }
+        margin-right: 15%; */
+    /* }
     
     .intersection, .competence, .contact {
-        width: 64em;
-    }
+        width: 64em; */
+    /* } */
 
 }
 
 @media only screen and (max-width: 895px) {
-    html {
+    /* html {
         width: 60em;
-    }
+    } */
 }
 
 
 @media only screen and (max-width: 1440px) {
-    .intersection, .competence, .contact {
+    /* .intersection, .competence, .contact {
         width: 92em;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1024px) {
-    html {
+    /* html {
         width: 92em;
-    }
+    } */
 }
 @media only screen and (max-width: 768px) {
-    .menu-toggle {
+    /* .menu-toggle {
         right: 240px;
         top: 80px;
     }
     html {
         width: 90em;
-    }
+    } */
 }
 
 /* @media only screen and (max-width: 320px) {

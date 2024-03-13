@@ -1,0 +1,64 @@
+.SkillsV2 img {
+
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    /* border-radius: 50%; */
+    /* border: 2px solid #fff; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.SkillsV2 img:hover {
+    transform: scale(1.1);
+}
+
+.SkillsV2 {
+    
+    background: #000000d7 ;
+    padding: 2em 1em 2em 1em;
+    border-radius: 10px;
+    display: grid;
+    gap: 20px;
+    text-align:center;
+    margin-bottom: 1rem;
+}
+
+.SkillsV2 h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    /* margin-top: 5vh; */
+}
+
+
+
+.Skills p {
+    /* margin-left: 2rem; */
+    /* color: white;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 20px; */
+}
+
+.Skills {
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    /* min-width: 10%; */
+    /* background-color: #00ffd5; */
+    /* background-color: #000;
+    padding: 100px;
+    border-radius: 50px; */
+}
+
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5vh 0;
+}
