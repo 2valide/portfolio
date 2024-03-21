@@ -1,21 +1,35 @@
+.logo {
+    /* position: absolute;
+    right: 85%;
+    left: 15%; */
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
 .navBar{
+    height: 100%;
+    max-height: 9.132420091324201vh;
+    width: 100%;
+    max-width: 100vw;
+    /* padding: 9.132420091324201vh 5.889vw 9.132420091324201vh 5.889vw; */
+    padding-top: 5.889vw;
+    padding: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    gap: 30vw;
+    
     color: white;
     font-family: "Roboto Mono", monospace;
     font-size: 16px;
     font-weight: lighter;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-width: 100vw;
-    padding: 40px 100px;
     transition: 0.6s;
     z-index: 1000;
     background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
     
 
 }
@@ -30,7 +44,7 @@
 }
 
 .nav {
-    margin-left: 20%;
+    /* margin-left: 20%; */
 }
 .nav ul {
     display: flex;
@@ -93,9 +107,9 @@
     justify-content: space-between;
     height: 24px;
     width: 30px;
-    position: fixed;
+    /* position: fixed;
     top: 75px;
-    right: 108px;
+    right: 108px; */
     z-index: 1001;
 }
 
@@ -146,21 +160,24 @@
  * Basic CSS Media Query Template
  * ------------------------------------------
  *  Responsive Grid Media Queries - 1280, 1024, 768, 480
- *   1280-1024   - desktop (default grid)
+ *   1326  - desktop (default grid)
  *   1024-768    - tablet landscape
  *   768-480     - tablet 
  *   480-less    - phone landscape & smaller
  * --------------------------------------------
  */
- @media all and (min-width: 1024px) and (max-width: 1280px) { }
 
- @media all and (min-width: 768px) and (max-width: 1024px) { }
  
- @media all and (min-width: 480px) and (max-width: 768px) { }
- 
- @media all and (max-width: 480px) {
-
+ @media all and (max-width: 1326px)  {
+     
+     .navBar {
+         justify-content: flex-start;
+         gap: 0;
+         padding-left: 9.132420091324201vh;
+        }
+}
     
+@media all and (max-width: 855px) { 
 
     .mobile-menu {
         display: block;
@@ -170,6 +187,26 @@
         display: none;
     }
 
+    .navBar {
+        justify-content: space-between;
+        padding: 10px 20px;
+        max-width: 93vw;
+    
+    }
+}
+
+@media all and (max-width: 425px) {
+
+    .navBar {
+        max-width: 107vw;
+    }
+}
+
+@media all and (max-width: 320px) {
+
+    .navBar {
+        max-width: 120vw;
+    }
 }
  
  
