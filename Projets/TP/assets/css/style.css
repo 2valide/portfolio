@@ -10,6 +10,7 @@
     --color-price: rgba(182, 188, 200, 1);
     --color-background-reduc: rgba(255, 238, 226, 1);
     --color-background-minus-plus: rgba(246, 248, 253, 1);
+    /* anthonyzhao.fr */
 }
 
 * {
@@ -18,7 +19,7 @@
     box-sizing: border-box;
 }
 
-ul {
+ul {/* anthonyzhao.fr */
     list-style: none;
 }
 
@@ -59,6 +60,7 @@ body {
     background-color: var(--color-3);
     border-radius: 20px;
     padding: 50px;
+    /* anthonyzhao.fr */
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -117,6 +119,7 @@ body {
 .burger-menu {
     display: none;
     cursor: pointer;
+    /* anthonyzhao.fr */
 }
 
 /* navbar */
@@ -157,6 +160,7 @@ header nav ul li a {
     color: var(--color-2);
     font-size: 15px;
     text-transform: capitalize;
+    /* anthonyzhao.fr */
     font-weight: 400;
 }
 
@@ -221,7 +225,7 @@ main .slider .main-img img{
 main .slider .secondary-img {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;/* anthonyzhao.fr */
     align-items: center;
 }
 
@@ -238,7 +242,7 @@ main .slider .secondary-img .hover {
 
 main .slider .secondary-img img:hover {
     border: 2px solid var(--color-3);
-    opacity: .5;
+    opacity: .5;/* anthonyzhao.fr */
 }
 
 /* SLIDER RESPONSIVE */
@@ -254,7 +258,7 @@ main .slider .secondary-img img:hover {
     padding: 0 20px;
 }
 
-.btn-slider i {
+.btn-slider i {/* anthonyzhao.fr */
     padding: 15px 18px;
     background-color: var(--background-color);
     border-radius: 50%;
@@ -278,7 +282,7 @@ main .product-overview {
 main .product-overview h2 {
     font-size: 13px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: uppercase;/* anthonyzhao.fr */
     letter-spacing: 2px;
     color: var(--color-3);
 }
@@ -309,7 +313,7 @@ main .product-overview .prices .new-price {
 
 main .product-overview .prices .new-price p:first-child {
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 700;/* anthonyzhao.fr */
     color: var(--color-1);
 }
 
@@ -335,7 +339,7 @@ main .product-overview .prices .old-price {
 }
 
 .product-overview .btns .products {
-    padding: 10px 20px;
+    padding: 10px 20px;/* anthonyzhao.fr */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -358,7 +362,7 @@ main .product-overview .prices .old-price {
     opacity: .5;
 }
 
-.product-overview .btns .products #items {
+.product-overview .btns .products #items {/* anthonyzhao.fr */
     font-size: 16px;
     font-weight: 700;
     color: var(--color-1);
@@ -383,7 +387,7 @@ main .product-overview .prices .old-price {
 .product-overview .btns .add i,
 .product-overview .btns .add p {
     font-size: 16px;
-    color: var(--background-color);
+    color: var(--background-color);/* anthonyzhao.fr */
 }
 
 /* ================ FOOTER ================ */
@@ -408,7 +412,7 @@ footer p {
     top: -12px;
     right: -12px;
     background-color: var(--color-3);
-    width: 20px;
+    width: 20px;/* anthonyzhao.fr */
     height: 20px;
     border-radius: 50%;
     display: none;
@@ -436,7 +440,7 @@ footer p {
 
     .burger-menu .close {
         display: none;
-    }
+    }/* anthonyzhao.fr */
 
     header {
         padding: 0 5%;
@@ -466,7 +470,7 @@ footer p {
     header nav ul li a {
         padding: 0;
     }
-
+/* anthonyzhao.fr */
     header .nav-right img {
         height: 24px;
         width: 24px;
@@ -484,7 +488,7 @@ footer p {
 
     main .slider .main-img img{
         border-radius: 0;
-    }
+    }/* anthonyzhao.fr */
 
     main .slider .secondary-img {
         display: none;
@@ -508,7 +512,7 @@ footer p {
 
     main .product-overview .prices {
         display: flex;
-        flex-direction: row;
+        flex-direction: row;/* anthonyzhao.fr */
         justify-content: space-between;
         align-items: center;
     }
@@ -542,7 +546,7 @@ footer p {
     }
 
     .pop-up .card i {
-        top: 10px;
+        top: 10px;/* anthonyzhao.fr */
         right: 15px;
     }
 
