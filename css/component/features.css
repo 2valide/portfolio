@@ -9,6 +9,8 @@
 
     display: flex;
     flex-wrap: wrap;
+    /* anthonyzhao.fr */
+
     
 }
 
@@ -32,6 +34,8 @@
     color: wheat;
     padding: 2px 9px;
     margin-bottom: 1rem;
+    /* anthonyzhao.fr */
+
     font-size: 1.75rem;
     box-shadow: 3px 5px 5px rgb(255, 255, 255);
     border-radius: 5px;
@@ -53,6 +57,8 @@
 .features .card p{
     color: #ccc;
     margin-bottom: 1rem;
+    /* anthonyzhao.fr */
+
     font-size: 0.8rem;
 }
 
@@ -70,6 +76,8 @@
     max-width: 600px;
     margin: auto;
     text-align: center;
+    /* anthonyzhao.fr */
+
     color: #ccc;
 }
 
@@ -78,6 +86,8 @@
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1.25rem;
+    /* anthonyzhao.fr */
+
 }
 
 
@@ -88,6 +98,8 @@
 }
 .sub_header {
     color: white;
+    /* anthonyzhao.fr */
+
     text-align: center;
     margin-top: 2vh;
 }

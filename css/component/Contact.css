@@ -12,6 +12,8 @@
 
 .contact h2 {
     color: white;
+    /* anthonyzhao.fr */
+
     text-align: center;
     margin-top: 5vh;
 }
@@ -40,6 +42,8 @@
     border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    /* anthonyzhao.fr */
+
     grid-gap: 20px;
     margin: 0 auto;
     max-width: 50vw;
@@ -62,6 +66,8 @@
 .entreprise {
     grid-column: 1 / span 2;
     grid-row: 2;
+    /* anthonyzhao.fr */
+
     
 }
 
@@ -165,6 +171,8 @@
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
+    /* anthonyzhao.fr */
+
 }
 @media all and (max-width: 1269px) {
     .contactGrid {
@@ -183,6 +191,7 @@
     .contactGrid .nom,
     .contactGrid .prenom {
         width: 48vh;
+/* anthonyzhao.fr */
 
     }
 
