@@ -9,6 +9,7 @@ body{
 
 
 
+/* anthonyzhao.fr */
 
 
 
@@ -31,6 +32,7 @@ body{
 .nav ul li a.active {
     color: #000000;
 } */
+/* anthonyzhao.fr */
 
 
 
@@ -53,6 +55,8 @@ body{
     background-color: #6ec7e0;
     width: 300px;
     height: 8px;
+    /* anthonyzhao.fr */
+
 }
 
 .htmlprogress {
@@ -70,6 +74,8 @@ body{
 .BootstrapProgress {
     background-color: #6ec7e0;
     width: 200px;
+    /* anthonyzhao.fr */
+
     height: 8px;
 }
 
@@ -95,6 +101,8 @@ body{
     background-color: #6ec7e0;
     width: 175px;
     height: 8px;
+    /* anthonyzhao.fr */
+
 }
 
 .SqlProgress {
@@ -106,6 +114,8 @@ body{
 .PostgreSQLProgress {
     background-color: #6ec7e0;
     width: 300px;
+    /* anthonyzhao.fr */
+
     height: 8px;
 }
 
@@ -131,6 +141,8 @@ body{
     background-color: #6ec7e0;
     width: 190px;
     height: 8px;
+    /* anthonyzhao.fr */
+
 }
 
 .PrestaShopProgress {
@@ -153,7 +165,8 @@ body{
     background-color: #6ec7e0;
     width: 300px;
     height: 8px;
-}
+}/* anthonyzhao.fr */
+
 
 .GitHubProgress {
     background-color: #6ec7e0;
@@ -171,7 +184,8 @@ body{
     background-color: #6ec7e0;
     width: 260px;
     height: 8px;
-}
+}/* anthonyzhao.fr */
+
 
 .PhotoShopProgress {
     background-color: #6ec7e0;
@@ -190,6 +204,8 @@ body{
 .competence h3{
     color: white;
     /* margin-left: 2rem; */
+    /* anthonyzhao.fr */
+
     text-align: center;
 }
 
