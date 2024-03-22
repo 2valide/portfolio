@@ -114,13 +114,40 @@
 
 /* Pop up */
 
-.PopUpFigma {
+
+.popup {
     display: none;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond semi-transparente */
 }
+  
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+}
+
+.popup button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 93%;
+}
+  
+.popup button:hover {
+    background-color: #0056b3;
+}
+

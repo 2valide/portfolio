@@ -66,7 +66,7 @@
                 <h1>Bonjour, je suis</h1>
                 <h2>Anthony ZHAO</h2>
                 <h3>Développeur web - integrateur</h3>
-                <p>Je suis actuellement en formation à Hetic, une école de développement web et de design. J'ai commencé à apprendre le développement web en autodidacte, puis j'ai décidé de me former professionnellement. J'ai choisi Hetic pour sa pédagogie et son enseignement de qualité. J'ai pu apprendre à travailler en équipe, à gérer des projets et à développer des compétences techniques.</p>
+                <p>Je suis actuellement en formation à Hetic, une école de développement web. J'ai commencé à apprendre le développement web en autodidacte, puis j'ai décidé de me former professionnellement. J'ai choisi Hetic pour sa pédagogie et son enseignement de qualité. J'ai pu apprendre à travailler en équipe, à gérer des projets et à développer des compétences techniques.</p>
                 <a href="https://github.com/2valide"><i class="fa-brands fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/anthony-zhao-0331b6298/" class="reseau2"><i class="fa-brands fa-linkedin" ></i></a>
             </div>
@@ -200,6 +200,8 @@
                         <img src="./img/logoSkills/back/php.svg" alt="">
                         <img src="./img/logoSkills/back/postgresql.svg" alt="">
                         <img src="./img/logoSkills/back/python.svg" alt="">
+
+                        <img src="./img/logoSkills/back/django.svg" alt="">
                     </div>
                     <div class="cms">
                         <h3>CMS</h3>
@@ -274,11 +276,21 @@
                         <br>
                         <br>
                         
-                        <a href="#">Découvrez le</a>
+                        <a onclick="openPopup() " style="cursor: pointer;" >Découvrez le</a>
                     </div>
 
-                    <div class="PopUpFigma" id="siteVitrine">
+                    <!-- <div class="PopUpFigma" id="siteVitrine">
+                        <p><i class="fa-solid fa-xmark"></i></p>
                         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FznDsWADgfEBbWnCnqGkVV5%2FSneakers%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DiOJZr71Rxj8kShhj-1" allowfullscreen></iframe>
+                    </div> -->
+
+                    <div class="popup">
+                        <div class="popup-content">
+                            <button onclick="closePopup()"><i class="fa-solid fa-xmark"></i></button>
+                            <br>
+                            <br>
+                          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FznDsWADgfEBbWnCnqGkVV5%2FSneakers%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DiOJZr71Rxj8kShhj-1" allowfullscreen></iframe>
+                        </div>
                     </div>
                     
                     <div class="card">
@@ -415,6 +427,7 @@
 <script src="Scripts/Cv.js"></script>
 <script src="Scripts/logo.js"></script>
 <script src="Scripts/navHamburger.js"></script>
+<script src="Scripts/popup.js"></script>
 </html>
 
 <!-- anthonyzhao.fr -->
