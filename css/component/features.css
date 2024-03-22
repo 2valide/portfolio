@@ -1,4 +1,12 @@
 
+.projets {
+
+    height: 100%;
+    min-height: 45vw;
+    
+}
+
+
 .features{
     /* display: grid; */
     gap: 2rem;
@@ -107,7 +115,7 @@
 /* Pop up */
 
 .PopUpFigma {
-    display: block;
+    display: none;
     position: fixed;
     top: 0;
     left: 0;

@@ -62,3 +62,94 @@
     justify-content: space-evenly;
     padding: 5vh 0;
 }
+
+
+.intersection {
+    background-color: #6ec7e0;
+    /* width: 100px; */
+    height: 7rem;
+}
+
+#competences {
+    background-color: #001b2e;
+    /* background:
+        repeating-conic-gradient(from 30deg,#0000 0 120deg,#3f4342 0 180deg) 
+     80px 46.16px,
+        repeating-conic-gradient(from 30deg,#000000 0 60deg,#272525 0 120deg,#3f4342 0 180deg);
+        background-size: 160px 92px; */
+
+
+}
+
+#competences h2 {
+    margin-top: 0;
+    padding: 5vh;
+}
+
+
+
+
+.cv {
+    /* background-color: #00ffd5; */
+    width: 47em;
+}
+
+.cv-img {
+    width: 100%;
+    height: auto;
+    transition: filter 0.5s ease;
+}
+
+/*.download-button {
+    position: relative;
+    /* top: 50%; 
+    bottom: 50%;
+    left: 50%;
+    /* z-index: 1; 
+    transform: translate(-50%, -50%);
+    background-color: #3498db; 
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: none;
+    width:7.5em;
+}
+*/
+
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.5em 0.8em 1.2em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgba(77,54,208,1) 0%, rgba(132,116,254,1) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button_contente {
+    display: none;
+}
+  
+.cssbuttons-io-button svg {
+    margin-right: 8px;
+}
+  
+.cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
+}
+  
+.cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
+}

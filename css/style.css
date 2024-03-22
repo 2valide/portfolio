@@ -213,57 +213,6 @@ body{
     margin-top: 2vh;
 }
 
-.intersection {
-    background-color: #6ec7e0;
-    /* width: 100px; */
-    height: 7rem;
-}
-
-#competences {
-    /* background-color: #000; */
-    background:
-        repeating-conic-gradient(from 30deg,#0000 0 120deg,#3f4342 0 180deg) 
-     80px 46.16px,
-        repeating-conic-gradient(from 30deg,#000000 0 60deg,#272525 0 120deg,#3f4342 0 180deg);
-        background-size: 160px 92px;
-
-
-}
-
-#competences h2 {
-    margin-top: 0;
-    padding: 5vh;
-}
-
-
-
-
-.cv {
-    /* background-color: #00ffd5; */
-    width: 47em;
-}
-
-.cv-img {
-    width: 100%;
-    height: auto;
-    transition: filter 0.5s ease;
-}
-
-.download-button {
-    position: relative;
-    /* top: 50%; */
-    bottom: 50%;
-    left: 50%;
-    /* z-index: 1; */
-    transform: translate(-50%, -50%);
-    background-color: #3498db; 
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    display: none;
-    width:7.5em;
-}
 
 
 

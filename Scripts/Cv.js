@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const cvImage = document.querySelector('.cv-img');
-    const downloadButton = document.querySelector('.download-button');
+    const downloadButton = document.querySelector('.button_contente');
 
     cvImage.addEventListener('mouseover', function () {
         // cvImage.style.filter = 'blur(3px)';
