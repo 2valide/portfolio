@@ -64,14 +64,11 @@
 }
 
 
-.intersection {
-    background-color: #6ec7e0;
-    /* width: 100px; */
-    height: 7rem;
-}
+
 
 #competences {
     background-color: #001b2e;
+    padding-top: 26px;
     /* background:
         repeating-conic-gradient(from 30deg,#0000 0 120deg,#3f4342 0 180deg) 
      80px 46.16px,

@@ -1,0 +1,18 @@
+.intersection h2 {
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.intersection {
+    /* background-color: #6ec7e0; */
+    /* width: 100px; */
+    /* height: 7rem; */
+}
+
+.intersection {
+    background-image: url(../../img/intersection.svg);
+    margin: 0;
+    padding: 0;
+    height: 7rem;
+}

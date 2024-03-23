@@ -4,6 +4,8 @@ body{
     /* height: 100wh; */
     font-size: 16px;
     overflow-x: hidden;
+    /* anthonyzhao.fr */
+    font-family: "Roboto Mono", monospace;
 }
 
 
@@ -37,11 +39,7 @@ body{
 
 
 
-.intersection h2 {
-    color: white;
-    text-align: center;
-    padding-top: 2em;
-}
+
 
 #barreDeProgression {
     background-color: #1e353c;
