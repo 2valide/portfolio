@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
     const cvImage = document.querySelector('.cv-img');
-    const downloadButton = document.querySelector('.button_contente');
+    const downloadButton = document.querySelector('.cssbuttons-io-button');
 
     cvImage.addEventListener('mouseover', function () {
         // cvImage.style.filter = 'blur(3px)';
-        downloadButton.style.display = 'block';
+        downloadButton.style.display = 'flex';
     });
 
     cvImage.addEventListener('mouseout', function () {
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     downloadButton.addEventListener('mouseover', function () {
         // cvImage.style.filter = 'blur(30px)';
-        downloadButton.style.display = 'block';
+        downloadButton.style.display = 'flex';
     });
 
     downloadButton.addEventListener('mouseout', function () {
