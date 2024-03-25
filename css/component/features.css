@@ -11,12 +11,15 @@
     /* display: grid; */
     gap: 2rem;
     /* grid-template-columns: repeat(4, 3fr); */
-    max-width: 1600px;
+    max-width: 83.333vw;
     margin: 4rem auto;
-    margin-left: 8%;
+    /* margin-left: 8%; */
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: center
+
+
     /* anthonyzhao.fr */
 
     
