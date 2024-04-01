@@ -1,9 +1,9 @@
-function closePopup() {
-    document.querySelector('.popup').style.display = 'none';
+function closePopup(id) {
+    document.querySelector("#"+id).style.display = 'none';
 }
 
-function openPopup() {
-    document.querySelector('.popup').style.display = 'flex';
+function openPopup(id) {
+    document.querySelector("#"+id).style.display = 'flex';
 }
 
 document.querySelector('.popup').addEventListener('click', function(e) {

@@ -311,69 +311,99 @@
             </div>
           </a>
           <!-- card end -->
-          
+
           <!-- card start -->
-          <a href="https://anthonyzhao.fr">
-            <div class="card" onmouseover="showContent('cardContent6')" onmouseout="hideContent('cardContent6')">
-              <span><i class="fa-brands fa-html5"></i></span>
-              <h4>Portfolio</h4>
-              <div id="cardContent6">
-                <p>Portfolio actuel.</p>
+          <a onclick="openPopup('popupContent2')" style="cursor: pointer">
+            <div class="card" onmouseover="showContent('cardContent2')" onmouseout="hideContent('cardContent2')">
+              <span><i class="fa-brands fa-figma"></i></span>
+              <h4>Maquette Portfolio (figma)</h4>
+              <div id="cardContent2">
+                <p>Maquettage de mon portfolio (old).</p>
                 <!-- anthonyzhao.fr -->
-                <p>29/01/2024</p>
+                <p>27/01/2024</p>
               </div>
-              <div id="cardContentHover6" style="display: none;">
+              <div id="cardContentHover2" style="display: none;">
                 <img src="./img/29.png" alt="Preview TrainTastic" class="cardContentImg">
               </div>
             </div>
           </a>
+        
+          <!-- pop up -->
+          <div id="popupContent2" class="popup" style="display: none;">
+            <div class="popup-content">
+              <button onclick="closePopup('popupContent2')">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+              <br />
+              <br />
+              <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FZEmO10O0kpgISApv0fTfsV%2FFolioPort%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DM4h2FYnfNdl9nW2s-1" allowfullscreen></iframe>
+            </div>
+          </div>
           <!-- card end -->
-
+          
           <!-- card start -->
-          <a onclick="openPopup() " style="cursor: pointer">
+          <a href="https://anthonyzhao.fr">
             <div class="card" onmouseover="showContent('cardContent3')" onmouseout="hideContent('cardContent3')">
-              <span><i class="fa-brands fa-figma"></i></span>
-              <h4>Maquette site vitrine (figma)</h4>
+              <span><i class="fa-brands fa-html5"></i></span>
+              <h4>Portfolio</h4>
               <div id="cardContent3">
-                <p>Maquettage du projet de site vitrine.</p>
+                <p>Portfolio actuel.</p>
                 <!-- anthonyzhao.fr -->
-                <p>01/02/2024</p>
+                <p>29/01/2024</p>
               </div>
               <div id="cardContentHover3" style="display: none;">
                 <img src="./img/29.png" alt="Preview TrainTastic" class="cardContentImg">
               </div>
             </div>
           </a>
+          <!-- card end -->
+
+          <!-- card start -->
+          <a onclick="openPopup('popupContent4')" style="cursor: pointer">
+            <div class="card" onmouseover="showContent('cardContent4')" onmouseout="hideContent('cardContent4')">
+              <span><i class="fa-brands fa-figma"></i></span>
+              <h4>Maquette site vitrine (figma)</h4>
+              <div id="cardContent4">
+                <p>Maquettage du projet de site vitrine.</p>
+                <!-- anthonyzhao.fr -->
+                <p>01/02/2024</p>
+              </div>
+              <div id="cardContentHover4" style="display: none;">
+                <img src="./img/29.png" alt="Preview TrainTastic" class="cardContentImg">
+              </div>
+            </div>
+          </a>
+        
           <!-- pop up -->
-          <div class="popup">
+          <div id="popupContent4" class="popup" style="display: none;">
             <div class="popup-content">
-              <button onclick="closePopup()"> <!-- anthonyzhao.fr -->
+              <button onclick="closePopup('popupContent4')">
                 <i class="fa-solid fa-xmark"></i>
               </button>
               <br />
-              <br /> <!-- anthonyzhao.fr -->
+              <br />
               <iframe
-              style="border: 1px solid rgba(0, 0, 0, 0.1)"
-              width="800"
-              height="450"
-              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FznDsWADgfEBbWnCnqGkVV5%2FSneakers%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DiOJZr71Rxj8kShhj-1"
-              allowfullscreen 
-              ></iframe>
-            </div> <!-- anthonyzhao.fr -->
+                style="border: 1px solid rgba(0, 0, 0, 0.1)"
+                width="800"
+                height="450"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FznDsWADgfEBbWnCnqGkVV5%2FSneakers%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DiOJZr71Rxj8kShhj-1"
+                allowfullscreen> 
+              </iframe>
+            </div>
           </div>
           <!-- card end -->
 
           <!-- card start -->
           <a href="./Projets/TP/index.html">
-            <div class="card" onmouseover="showContent('cardContent2')" onmouseout="hideContent('cardContent2')">
+            <div class="card" onmouseover="showContent('cardContent5')" onmouseout="hideContent('cardContent5')">
               <span><i class="fa-brands fa-js"></i></span>
               <h4>Site vitrine</h4>
-              <div id="cardContent2">
+              <div id="cardContent5">
                 <p>Projet scolaire, une page dynamique de vente de chaussure.</p>
                 <!-- anthonyzhao.fr -->
                 <p>02/02/2024</p>
               </div>
-              <div id="cardContentHover2" style="display: none;">
+              <div id="cardContentHover5" style="display: none;">
                 <img src="./img/29.png" alt="Preview TrainTastic" class="cardContentImg">
               </div>
             </div>
@@ -383,15 +413,15 @@
           
           <!-- card start -->
           <a href="./Projets/Chatbox/index.html">
-            <div class="card" onmouseover="showContent('cardContent4')" onmouseout="hideContent('cardContent4')">
+            <div class="card" onmouseover="showContent('cardContent6')" onmouseout="hideContent('cardContent6')">
               <span><i class="fa-brands fa-js"></i></span>
               <h4>Chat box</h4>
-              <div id="cardContent4">
+              <div id="cardContent6">
                 <p>Un chat box, interactif.</p>
                 <!-- anthonyzhao.fr -->
                 <p>08/02/2024</p>
               </div>
-              <div id="cardContentHover4" style="display: none;">
+              <div id="cardContentHover6" style="display: none;">
                 <img src="./img/29.png" alt="Preview TrainTastic" class="cardContentImg">
               </div>
             </div>
@@ -417,15 +447,15 @@
           
           <!-- card start -->
           <a href="./Projets/GPT detector/index.html">
-            <div class="card" onmouseover="showContent('cardContent5')" onmouseout="hideContent('cardContent5')">
+            <div class="card" onmouseover="showContent('cardContent8')" onmouseout="hideContent('cardContent8')">
               <span><i class="fa-brands fa-js"></i></span>
               <h4>Prototype d'anti triche Examen</h4>
-              <div id="cardContent5">
+              <div id="cardContent8">
                 <p>Un prototype de site web pour les examens, anti triche et ludique.</p>
                 <!-- anthonyzhao.fr -->
                 <p>26/02/2024</p>
               </div>
-              <div id="cardContentHover5" style="display: none;">
+              <div id="cardContentHover8" style="display: none;">
                 <img src="./img/29.png" alt="Preview TrainTastic" class="cardContentImg">
               </div>
             </div>
@@ -436,15 +466,15 @@
 
           <!-- card start -->
           <a href="https://github.com/2valide/TrainTastic/">
-            <div class="card" onmouseover="showContent('cardContent8')" onmouseout="hideContent('cardContent8')">
+            <div class="card" onmouseover="showContent('cardContent9')" onmouseout="hideContent('cardContent9')">
               <span><i class="fa-brands fa-python"></i></span>
               <h4>TrainTastic</h4>
-              <div id="cardContent8">
+              <div id="cardContent9">
                 <p>TrainTastic est un projet Python Django conçu pour afficher des informations sur les trains, y compris les horaires, les destinations et les identifiants de train, ainsi qu'un plan.</p>
                 <!-- anthonyzhao.fr -->
                 <p>26/03/2024</p>
               </div>
-              <div id="cardContentHover8" style="display: none;">
+              <div id="cardContentHover9" style="display: none;">
                 <img src="./img/29.png" alt="Preview TrainTastic" class="cardContentImg">
               </div>
             </div>
