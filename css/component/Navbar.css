@@ -204,7 +204,7 @@
     }
 
     .navBar {
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 10px 20px;
         max-width: 93vw;
     
