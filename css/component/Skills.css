@@ -5,7 +5,7 @@
     margin: 10px;
     /* border-radius: 50%; */
     /* border: 2px solid #fff; */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     transition: 0.5s;
     cursor: pointer;
     display: inline-block;
@@ -16,13 +16,13 @@
 }
 
 .SkillsV2 {
-    
-    background: #000000d7 ;
+
+    background: #282830;
     padding: 2em 1em 2em 1em;
     border-radius: 10px;
     display: grid;
     gap: 20px;
-    text-align:center;
+    text-align: center;
     margin-bottom: 1rem;
 }
 
@@ -123,7 +123,7 @@
     padding: 0.8em 1.5em 0.8em 1.2em;
     color: white;
     background: #ad5389;
-    background: linear-gradient(0deg, rgba(77,54,208,1) 0%, rgba(132,116,254,1) 100%);
+    background: linear-gradient(0deg, rgba(77, 54, 208, 1) 0%, rgba(132, 116, 254, 1) 100%);
     border: none;
     box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
     letter-spacing: 0.05em;
@@ -145,15 +145,15 @@
 .button_contente {
     display: none;
 }
-  
+
 .cssbuttons-io-button svg {
     margin-right: 8px;
 }
-  
+
 .cssbuttons-io-button:hover {
     box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
 }
-  
+
 .cssbuttons-io-button:active {
     box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
 }
